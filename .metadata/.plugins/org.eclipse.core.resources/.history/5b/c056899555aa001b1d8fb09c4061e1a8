@@ -1,0 +1,15 @@
+package com.grwts;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.openfeign.EnableFeignClients;
+
+@SpringBootApplication
+@EnableFeignClients
+public class CollegeManagementregilieance4JApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(CollegeManagementregilieance4JApplication.class, args);
+	}
+
+}

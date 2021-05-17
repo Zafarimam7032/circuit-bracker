@@ -1,0 +1,5 @@
+package com.grwts.feign.proxy;
+
+public interface FeaignProxy {
+
+}

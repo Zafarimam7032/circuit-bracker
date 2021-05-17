@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename Java project &apos;CollegeManagemnt(Open Fein)&apos; to &apos;CollegeManagemnt(Open Fein)(circuit Breaker)&apos;&#x0D;&#x0A;- Original element: &apos;CollegeManagemnt(Open Fein)&apos;&#x0D;&#x0A;- Renamed element: &apos;CollegeManagemnt(Open Fein)&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename Java project &apos;CollegeManagemnt(Open Fein)&apos;" flags="7" id="org.eclipse.jdt.ui.rename.java.project" input="=CollegeManagemnt\(Open Fein)" name="CollegeManagemnt(Open Fein)(circuit Breaker)" references="true" stamp="1618056139412" version="1.0"/>
+</session>

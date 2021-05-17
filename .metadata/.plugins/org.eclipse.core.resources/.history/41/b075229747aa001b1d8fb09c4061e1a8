@@ -1,0 +1,14 @@
+package com.grwts.config;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+class WebConfigurationNewTest {
+
+	@Test
+	void test() {
+		fail("Not yet implemented");
+	}
+
+}

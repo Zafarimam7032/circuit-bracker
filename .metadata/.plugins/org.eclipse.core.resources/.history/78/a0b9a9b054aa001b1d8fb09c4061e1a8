@@ -1,0 +1,8 @@
+package com.grwts.feign.proxy;
+
+import org.springframework.cloud.openfeign.FeignClient;
+
+@FeignClient(name = "StudentInfo",path = "/home/student")
+public interface FeaignProxy {
+
+}

@@ -1,0 +1,15 @@
+package com.grwts.config;
+@Configuration
+public class WebConfiguration extends EnableWebMvcConfiguration {
+
+    @Override
+    protected RequestMappingHandlerMapping createRequestMappingHandlerMapping() {
+    RequestMappingHandlerMapping mapping = new RequestMappingHandlerMapping(){
+            @Override
+            protected boolean isHandler(Class<?> beanType) {
+                return super.isHandler(beanType) && (AnnotationUtils.findAnnotation(beanType, FeignClient.class) == null);
+            }
+    };
+    return mapping;
+    }
+}
